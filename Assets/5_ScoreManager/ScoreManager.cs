@@ -13,4 +13,9 @@ public class ScoreManager : MonoBehaviour
 		print("You have: " + score);
 	}
 
+	public int GetScore()
+	{ 
+		return score;
+	}
+
 }
